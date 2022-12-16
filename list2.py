@@ -1,0 +1,9 @@
+a=[4,2,3,10,7]
+a.reverse()
+print(a)
+a.pop(2)
+print(a)
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)

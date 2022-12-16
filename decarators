@@ -1,0 +1,16 @@
+def div(a,b) :
+    return a/b
+"""Decarators are used to change the behaviour of any functions which are need
+to use the decarators calling the function in another function and decalre the aruguments to change the behaviour """
+def smart(func):
+    def inner(a,b):
+        if a<b:
+            a,b=b,a
+        return func (a,b)
+    return inner
+
+div1=smart(div)    
+
+print('Ans is : ',div1(2,4))  
+
+

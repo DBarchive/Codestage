@@ -1,0 +1,10 @@
+a=[1,2.0,'aravind']
+a.append('deepak')
+a.insert(2,'any')
+print(a)
+a.reverse()
+print(a)
+a.copy()
+print(a)
+a.count('aravind')
+print(a)
