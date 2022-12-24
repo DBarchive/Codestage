@@ -1,4 +1,8 @@
 First line
 second line
 third line
+<<<<<<< HEAD
+fifth line
+=======
 fourth line instead of fifth line
+>>>>>>> Dev
